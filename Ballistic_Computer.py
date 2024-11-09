@@ -91,7 +91,7 @@ if __name__ == "__main__":
     lan_x, lan_z = compute_landing_position(mass, CdH, CdV, A, h,
                                             v, w, hdg, wdir, alpha)
 
-    print(lan_x)
-    print(lan_z)
+    print("Dx: " + str(lan_x))
+    print("Dz: " + str(lan_z))
     print("Time elapsed for the computation : " + str(time.time()-t0)
           + " seconds")
